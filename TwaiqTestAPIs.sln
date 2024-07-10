@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwaiqTestAPIs", "TwaiqTestAPIs\TwaiqTestAPIs.csproj", "{6493D4A0-CB47-4AC5-8CAB-98B4364E339B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6493D4A0-CB47-4AC5-8CAB-98B4364E339B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6493D4A0-CB47-4AC5-8CAB-98B4364E339B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6493D4A0-CB47-4AC5-8CAB-98B4364E339B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6493D4A0-CB47-4AC5-8CAB-98B4364E339B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0D5D73C-8EC7-4B68-94B2-2AFB120879EB}
+	EndGlobalSection
+EndGlobal

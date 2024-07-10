@@ -1,0 +1,6 @@
+@TwaiqTestAPIs_HostAddress = http://localhost:5232
+
+GET {{TwaiqTestAPIs_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

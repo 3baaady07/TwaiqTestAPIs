@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TwaiqTestAPIs</name>
+    </assembly>
+    <members>
+        <member name="M:TwaiqTestAPIs.Controllers.V1.CitiesController.IndexAsync(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            City resource API
+            </summary>
+            <param name="cityName">A city name to get its info</param>
+            <param name="queryString">A snippet description of the city to query</param>
+            <param name="pageSize">Number of cities to retrieve</param>
+            <param name="pageNumber">A page offset</param>
+            <returns></returns>
+        </member>
+        <member name="M:TwaiqTestAPIs.Controllers.V1.CitiesController.GetCitiesAsync(System.Int32)">
+            <summary>
+            Get a city by ID
+            </summary>
+            <param name="cityId">The Id of the city to retreive</param>
+            <returns></returns>
+        </member>
+        <member name="T:TwaiqTestAPIs.Migrations.Init">
+            <inheritdoc />
+        </member>
+        <member name="M:TwaiqTestAPIs.Migrations.Init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TwaiqTestAPIs.Migrations.Init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TwaiqTestAPIs.Migrations.Init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:TwaiqTestAPIs.OpstionsSetup.ApiExplorerOptionsSetup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TwaiqTestAPIs.OpstionsSetup.ApiExplorerOptionsSetup.Configure(Asp.Versioning.ApiExplorer.ApiExplorerOptions)">
+            <summary>
+            
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="T:TwaiqTestAPIs.OpstionsSetup.SwaggerGenOptionsSetup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TwaiqTestAPIs.OpstionsSetup.SwaggerGenOptionsSetup.Configure(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions)">
+            <summary>
+            
+            </summary>
+            <param name="options"></param>
+        </member>
+    </members>
+</doc>
